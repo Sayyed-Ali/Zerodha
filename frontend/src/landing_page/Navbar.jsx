@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-white border-bottom">
             <div className="container">
-                <Link className="navbar-brand" to={"/"}>
+                <Link className="navbar-brand d-flex justify-content-start" to={"/"}>
                     <img src="media/images/logo.svg"
                         alt="logo"
                         style={{ width: "25%" }}
