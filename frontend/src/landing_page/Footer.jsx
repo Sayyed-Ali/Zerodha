@@ -68,4 +68,4 @@ function Footer() {
     );
 }
 
-export default Footer; <a href=""></a>
+export default Footer;
