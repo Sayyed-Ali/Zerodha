@@ -1,0 +1,14 @@
+img {
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
+.grid {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-col {
+    padding: 0 2rem 0 3rem !important;
+}
