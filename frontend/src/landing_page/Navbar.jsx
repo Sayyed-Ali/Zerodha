@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-white border-bottom">
+        <nav className="navbar navbar-expand-lg bg-white border-bottom sticky-top">
             <div className="container">
                 <Link className="navbar-brand d-flex justify-content-start" to={"/"}>
                     <img src="media/images/logo.svg"

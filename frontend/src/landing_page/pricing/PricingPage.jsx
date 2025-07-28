@@ -1,7 +1,12 @@
+import Hero from "./Hero";
+import OpenAccount from "../OpenAccount"
+import Brokerage from "./Brokerage";
 function PricingPage() {
     return (
         <div>
-            <h1>procing oage</h1>
+            <Hero />
+            <OpenAccount />
+            <Brokerage />
         </div>
     );
 }
