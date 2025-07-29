@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            <div className="container border-top mt-5 bg-light">
+            <div className="container-fluid border-top mt-5 bg-light p-5">
                 <div className="row mt-5">
                     <div className="col text-start">
                         <img

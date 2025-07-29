@@ -95,3 +95,10 @@ button:focus-visible {
   display: inline;
   margin-right: 20px;
 }
+
+#root {
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  padding: 0rem !important;
+}

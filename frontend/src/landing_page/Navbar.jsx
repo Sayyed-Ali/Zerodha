@@ -2,18 +2,18 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-white border-bottom sticky-top">
-            <div className="container">
-                <Link className="navbar-brand d-flex justify-content-start" to={"/"}>
+        <nav className="navbar navbar-expand-lg bg-white border-bottom sticky-top d-flex justify-content-between">
+            <div className="container-fluid">
+                <Link className="navbar-brand d-flex justify-content-center ms-5 ps-5" to={"/"}>
                     <img src="media/images/logo.svg"
                         alt="logo"
-                        style={{ width: "25%" }}
+                        style={{ width: "25%", marginTop: "15px" }}
                     />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse ms-5 ps-5" id="navbarSupportedContent" style={{}}>
                     <form className="d-flex" role="search">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
