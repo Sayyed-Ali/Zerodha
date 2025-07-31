@@ -11,6 +11,16 @@ const { PositionsModel } = require("./models/PositionsModel");
 const app = express();
 mongoose.connect(url);
 
+app.get("/allHoldings", async (req, res) => {
+    let allHoldings = await HoldingsModel.find({});
+    res.json(allHoldings);
+});
+
+app.get("/allPositions", async (req, res) => {
+    let allPositions = await PositionsModel.find({});
+    res.json(allPositions);
+});
+
 /* app.get("/addHolding", async (req, res) => {
     let tempHoldings = [
         {
