@@ -113,7 +113,6 @@ export const holdings = [
         price: 779.8,
         net: "-3.72%",
         day: "-0.01%",
-        isLoss: true,
     },
     {
         name: "RELIANCE",
@@ -130,7 +129,6 @@ export const holdings = [
         price: 430.2,
         net: "+32.63%",
         day: "-0.34%",
-        isLoss: true,
     },
     {
         name: "SGBMAY29",
@@ -147,7 +145,6 @@ export const holdings = [
         price: 124.15,
         net: "+19.15%",
         day: "-0.24%",
-        isLoss: true,
     },
     {
         name: "TCS",
@@ -156,7 +153,6 @@ export const holdings = [
         price: 3194.8,
         net: "+5.03%",
         day: "-0.25%",
-        isLoss: true,
     },
     {
         name: "WIPRO",
