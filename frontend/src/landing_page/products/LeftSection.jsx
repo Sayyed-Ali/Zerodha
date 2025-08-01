@@ -20,9 +20,9 @@ function LeftSection({
                         <a className="me-5" href={tryDemo}>Try demo <i class="fa-solid fa-arrow-right"></i></a>
                         <a href={learnMore}>Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
-                    <div className="">
-                        <a className="me-5" href={googlePlay}><img src="media/images/googlePlayBadge.svg" alt="googlePlay" /></a>
-                        <a href={appStore}><img src="media/images/appstoreBadge.svg" alt="" /></a>
+                    <div className="d-flex">
+                        <a className="me-5" href={googlePlay}><img src="media/images/googlePlayBadge.svg" alt="googlePlay" style={{ width: "95%" }} /></a>
+                        <a href={appStore}><img src="media/images/appstoreBadge.svg" alt="appStore" style={{ width: "100%" }} /></a>
                     </div>
                 </div>
 
