@@ -10,7 +10,7 @@ function ProductPage() {
             <LeftSection imgURL="media/images/kite.png"
                 prdctName="Kite"
                 prdctDescp="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
-                tryDemo="https://kite-dashboard.onrender.com/"
+                tryDemo="https://kite-dashboard.onrender.com"
                 learnMore=""
                 googlePlay=""
                 appStore=""
