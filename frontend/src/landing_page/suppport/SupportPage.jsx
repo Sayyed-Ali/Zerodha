@@ -1,7 +1,7 @@
 function SupportPage() {
     return (
         <div>
-            <h2>suport page</h2>
+            <h1 className="mt-5 mb-5 p-5">Under Construction</h1>
         </div>
     );
 }
